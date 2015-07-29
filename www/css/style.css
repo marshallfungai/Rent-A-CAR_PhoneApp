@@ -1,0 +1,85 @@
+/* Empty. Add your own CSS if you like */
+
+.splash {
+	background: url(../img/road.jpeg) no-repeat ;
+	background-size: cover;
+	background-position: center;
+	margin: auto; 
+	z-index: 2;
+}
+
+
+
+.branding, .brand2 {
+	width:50%;
+	margin: 0 auto;
+	max-width: 300px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+/*.maintext {
+	text-decoration: white;
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+	font-style: oblique;
+}*/
+
+.tagline {
+	font-size: 1.4rem;
+	margin-top: 20px;
+}
+
+.branding p {
+	margin-top: 10px;
+	font-size: 1rem;
+	color: white;
+	font-style: oblique;
+
+}
+
+.item-divider {
+	background-color: #EEE8D6;
+}
+
+.bar-positive, .tabs-positive>.tabs, .hcolor {
+	background-color: #417D9A; !important;
+	border-color: #417D9A;
+}
+
+.item-thumbnail-left img {
+	border-radius: 10px;
+}
+
+.item h2 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #417D9A;
+}
+
+ion-item:hover {
+
+    background-color: #D8D8D8;
+   
+}
+
+.special:hover {
+	background-color: white;
+}
+
+.maintext {
+	margin-top: 10px;
+	font-style: oblique;
+}
+
+.my-list {
+  list-style-type: disc;
+}
+
+.detail-image {
+	margin: auto;
+	max-width:380px;
+	max-height: 70%;
+	position: center;
+}

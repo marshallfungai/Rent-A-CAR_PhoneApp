@@ -1,0 +1,42 @@
+<ion-header-bar align-title="right" class="bar-assertive">
+		<h2 class="title">More Info</h2>
+
+</ion-header-bar>
+
+<ion-view>
+  <ion-content>
+    <ion-list class="list-insert">
+      <ion-item class="special" ng-repeat="car in cars | filter :{id: whichcar}">
+			
+      		<img class="detail-image" src="{{car.image}}" alt="Photo Unavailable" >
+      		
+
+            <h2>{{car.name}}</h2><br/><br/>
+            <p>Type             : {{car.type}} <br/><br/>
+            max speed (km/h)    : {{car.maxspeed}}<br/><br/>
+            Engine Size         : {{car.engine_size}}<br/><br/>
+            Available for Rent  :{{car.availability}}<br/><br/>
+            Seating             : {{car.seat}}<br/><br/>
+            Fuel                : {{car.fuel}}<br/><br/>
+            Transmission        : {{car.transm}}</p><br/><br/>
+
+            <h3>Price (High Season):</h3> 
+
+            <ul class="my-list">
+            	<li>3-7 days: $XX / day</li>
+            	<li>8+ days  : $XX / day</li>
+            </ul>
+    		<br/>
+    		<h3>Price (low Season):</h3> 
+
+            <ul class="my-list">
+            	<li>3-7 days : $XX / day</li>
+            	<li>8+  days: $XX / day</li>
+            </ul>
+      </ion-item>
+
+
+    </ion-list>
+  </ion-content>
+  <p>Tap the Car-tab to go back</p>
+</ion-view>
